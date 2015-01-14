@@ -8,4 +8,4 @@ RUN apt-get install -y \
 
 RUN gem install sass
 
-CMD cd /assets && sass --watch styles:css --poll
+CMD cd /assets && sass --watch styles:css --poll --sourcemap=none
